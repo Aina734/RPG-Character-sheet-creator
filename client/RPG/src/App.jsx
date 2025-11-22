@@ -1,25 +1,53 @@
-import { useState } from 'react'
-
 import './App.css'
 
+import { BrowserRouter, Route, Routes} from 'react-router-dom'
+
+//error page
+import PageNotFound from './pages/PegeNotFound'
+
+//normal navigation page
+import Home from './pages/Home'
+import CharacterCreator from './pages/CharacterCreator'
+import News from './pages/News'
+
+//user management page
+import Login from './pages/User-Management/Login'
+import Dashboard from './pages/User-Management/Dashboard'
+import Register from './pages/User-Management/Register'
+import Recovery from './pages/User-Management/Recovery'
+import NewPass from './pages/User-Management/NewPass'
+import ProtectedRoutes from './security/ProtectedRoutes'
+
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
-    <>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+ <BrowserRouter> 
+  <Routes>
+
+  <Route element={<ProtectedRoutes />}>
+  
+    <Route element={<CharacterCreator />} path= "/create-character" />
+    <Route element={<Dashboard />} path= "/dashboard" />
+
+  </Route>
+
+  <Route element={<Home />} path= "/" />
+
+  <Route element={<News />} path= "/news" />
+
+  <Route element={<Login />} path= "/login" />
+
+  <Route element={<Register />} path= "/registration" />
+
+  <Route element={<Recovery />} path= "/recovery" />
+
+  <Route element={<NewPass />} path= "/set-recovery"  />
+
+  <Route element={<PageNotFound />} path= "*" />
+
+</Routes>
+</BrowserRouter>
   )
 }
 
