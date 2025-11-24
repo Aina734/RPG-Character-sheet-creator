@@ -1,0 +1,1 @@
+//This component will be a dropdown menu to select the category (character creator - map creator)

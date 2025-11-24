@@ -1,0 +1,19 @@
+h3 {
+    text-align: center;
+    padding: 1em 0;
+}
+.example-template {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+video {
+    width: 500px;
+}
+.example-template article {
+display:flex;
+flex-direction: column;
+padding: 2em 0;
+}

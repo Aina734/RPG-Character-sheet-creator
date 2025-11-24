@@ -6,10 +6,10 @@ return (
 <header>
     <nav>
         <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/create-character">Create Character</Link></li>
-            <li><Link to="/news">News</Link></li>
-            <li><Link to="/login">Login</Link></li>
+            <Link to="/"><li>Home</li></Link>
+            <Link to="/create-character"><li>Create Character</li></Link>
+            <Link to="/news"><li>News</li></Link>
+            <Link to="/login"><li>Login</li></Link>
         </ul>
     </nav>
 </header>

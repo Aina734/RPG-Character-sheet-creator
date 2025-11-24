@@ -1,0 +1,51 @@
+button {
+    border-radius: 15px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.standard-window {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em 0;
+    padding-bottom: 4em;
+}
+
+.standard-window > form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em 3em;
+    background-color: rgb(151, 151, 151);
+    border: double black 9px;
+    border-radius: 15px;
+}
+
+.standard-window > form div {
+    padding: 1em 0;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    color: rgb(144, 0, 36);
+    font-size: 1.2rem;
+}
+
+.standard-window > form div > input {
+    padding: .5em .7em;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.standard-window > form > a > button {
+     padding: 1.2em 1em;
+}
+
+.standard-window > a > button {
+    padding: 1.2em 1em;
+    margin-bottom: 2em;
+}
