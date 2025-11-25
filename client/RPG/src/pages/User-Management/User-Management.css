@@ -45,7 +45,8 @@ label {
      padding: 1.2em 1em;
 }
 
-.standard-window > a > button {
+.standard-window > a > button, #send {
     padding: 1.2em 1em;
     margin-bottom: 2em;
 }
+

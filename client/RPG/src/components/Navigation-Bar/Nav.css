@@ -1,6 +1,7 @@
 header {
 width: 100%;
-background-color: aquamarine;
+background-color: rgb(28, 24, 24);
+border-bottom: double 13px rgb(99, 0, 0);
 color: rgb(149, 154, 158);
 font-size: 1.5rem;
 padding: .5em 0;
@@ -8,14 +9,14 @@ padding: .5em 0;
 nav {
     width: 100%;
 }
-ul {
+.navigation {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
     text-decoration:none;
 }
-li {
+.navigation li {
     list-style: none;
     padding: 1em;
     border:solid black 2px;
@@ -26,6 +27,6 @@ a {
     text-decoration:none;
 }
 
-a:visited {
+.navigation a:visited {
     color:  rgb(207, 210, 212);
 }

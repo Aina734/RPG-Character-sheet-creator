@@ -1,8 +1,14 @@
-
+import Footer from "../../components/footer/Footer"
+import Nav from "../../components/Navigation-Bar/Nav"
+import CharacterHeader from "../../components/CharacterCreation/CharacterHeader"
+import ChPicEquip from "../../components/CharacterCreation/ChPicEquip"
 function CharacterCreator(){
     return (
     <>
-    <h1>This Is the Character Creator Page</h1>
+    <Nav />
+    <CharacterHeader />
+    <ChPicEquip />
+    <Footer />
     </>
     )
 }

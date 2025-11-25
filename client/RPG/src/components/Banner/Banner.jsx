@@ -5,6 +5,11 @@ function Banner(){
         <>
         <h1>Welcome to RPG Character Creator</h1>
 
+        <div className="logo">
+            {/*page logo*/}
+            <img src="https://placehold.co/600x400" alt="page logo"/>
+        </div>
+
         <div className="banner-order">
         <section className="banner-section">
 

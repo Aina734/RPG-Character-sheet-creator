@@ -25,7 +25,7 @@ function Register(){
         <input name="confirm-pass" id="confirm-pass" type="password" required></input>
         </div>
         
-        <button type="button">Send</button>
+        <button type="button" id= "send">Send</button>
         {/*Maybe pop up a salted pass or jwt that they need to use for login and be on session until window closed */}
     </form>
     </section>

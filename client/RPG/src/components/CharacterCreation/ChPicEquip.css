@@ -1,0 +1,16 @@
+.picture-equipment {
+    display:flex;
+    gap: 4em 5em;
+    padding: 2em;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.ch-equipment {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.ch-equipment ul {
+ padding-left: 3em;
+ line-height: 3em;
+}

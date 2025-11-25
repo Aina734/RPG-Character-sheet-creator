@@ -12,11 +12,13 @@ function Dashboard(){
     <section className="username-bar">
         <h1>Here the name of the user will be displayed</h1>
     </section>
-    <h2>This Is the user Dashboard page</h2>
+
+    <div className="dashboard-container">
 
     <section className="dashboard-menu">
 
-        <ul className="dashboard options">
+        <h3>Welcome!</h3>
+        <ul className="dashboard-options">
             {/* On profile the username is show, Date when they Joined, upload user picture */}
             <Link to=""><li>Profile</li></Link> 
             {/* On Character a component with a list of cards that open selected character */}
@@ -25,9 +27,9 @@ function Dashboard(){
         </ul>
 
     </section>
-
+    </div>
+    {/*Here we will add the selected component when we have also the maps done, they will be shown as card of options*/}
     <Footer />
-
     </>
     )
 }

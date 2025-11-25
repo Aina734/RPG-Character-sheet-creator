@@ -1,0 +1,23 @@
+.character-header {
+    background-color: cadetblue;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.character-name {
+background-color: burlywood;
+}
+
+.character-name h1 {
+    padding: .7em 0;
+}
+
+.ch-basic-info {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em 0;
+}
+
+.ch-basic-info span {
+    padding: 0 1em;
+}

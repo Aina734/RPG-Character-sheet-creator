@@ -5,7 +5,7 @@ return (
     <>
 <header>
     <nav>
-        <ul>
+        <ul className="navigation">
             <Link to="/"><li>Home</li></Link>
             <Link to="/create-character"><li>Create Character</li></Link>
             <Link to="/news"><li>News</li></Link>

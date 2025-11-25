@@ -7,7 +7,7 @@ import PageNotFound from './pages/PegeNotFound'
 
 //normal navigation page
 import Home from './pages/Home'
-import CharacterCreator from './pages/CharacterCreator'
+import CharacterCreator from './pages/Functionality/CharacterCreator'
 import News from './pages/News'
 
 //user management page
