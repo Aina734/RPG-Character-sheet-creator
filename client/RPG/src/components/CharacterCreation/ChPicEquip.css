@@ -14,3 +14,32 @@
  padding-left: 3em;
  line-height: 3em;
 }
+
+.armor-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    width: 18em;
+    height: 18em;
+}
+
+.armor-val-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 10em;
+    height: 10em;
+    background-color: rgb(126, 73, 8); /*do a copper effect*/
+    border: double 10px rgb(74, 56, 9);
+    border-radius: 30%;
+    gap: 1em 2em;
+}
+.armor-val-box > input {
+    text-align: center;
+    font-size: 1.5rem;
+    width: 40%;
+    height: 40%;
+}
+

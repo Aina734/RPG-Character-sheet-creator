@@ -6,7 +6,7 @@ function News() {
   return (
     <>
     <Nav />
-      <h1>This is the News</h1>
+      <h1>This is Under Construction</h1>
 
     <Footer />
      

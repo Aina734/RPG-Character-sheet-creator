@@ -1,0 +1,32 @@
+.proficiencies {
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+
+.proficiencies div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 13em;
+    padding: 2em 1em;
+    border-radius: 10px;
+    border: double 8px rgb(40, 26, 15);
+    background-color: rgb(81, 55, 42);
+}
+
+.proficiencies label {
+    padding-bottom: .5em;
+    color: #c2c2c2;
+}
+
+.proficiencies input {
+    width: 3em;
+    height: 3em;
+    padding: .5em;
+    text-align: center;
+    font-size: 1.5rem;
+    background: none;
+    color: rgb(241, 230, 146);
+    font-weight: bolder;
+}
